@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/default_views_title"
+        android:key="default_views">
+        <ListPreference
+                android:key="primary_view_default"
+                android:title="@string/primary_view_default"
+                android:defaultValue="@string/primary_default"
+                android:entries="@array/social_media"
+                android:entryValues="@array/social_media"
+                android:negativeButtonText="@null"
+                android:positiveButtonText="@null"
+                android:summary="@string/primary_default"/>
+
+        <ListPreference
+                android:key="secondary_view_default"
+                android:title="@string/secondary_view_default"
+                android:defaultValue="@string/secondary_default"
+                android:entries="@array/social_media"
+                android:entryValues="@array/social_media"
+                android:negativeButtonText="@null"
+                android:positiveButtonText="@null"
+                android:summary="@string/secondary_default"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/fullscreen_title"
+        android:key="fullscreen_options">
+        <CheckBoxPreference
+                android:key="full_screen_view"
+                android:title="@string/fullscreen_view"
+                android:summary="@string/fullscreen_summary"
+                android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/customization_title"
+        android:key="custom_view">
+        <ListPreference
+                android:key="color_view"
+                android:title="@string/background_color"
+                android:defaultValue="@string/color_default"
+                android:entries="@array/color_toggle"
+                android:entryValues="@array/color_toggle"
+                android:negativeButtonText="@null"
+                android:positiveButtonText="@null"
+                android:summary="@string/color_default"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/alert_title"
+        android:key="alert_options">
+        <CheckBoxPreference
+            android:key="help_alert"
+            android:title="@string/helpPopUp_title"
+            android:summary="@string/help_alert_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="new_page_view"
+            android:title="@string/new_page_dialog"
+            android:summary="@string/new_page_summary"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+                android:key="url_view"
+                android:title="@string/url_view"
+                android:summary="@string/url_view_summary"
+                android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

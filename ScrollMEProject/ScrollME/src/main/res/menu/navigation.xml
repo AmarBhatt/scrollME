@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_back"
+          android:title="@string/navigation_back"
+          android:orderInCategory="100"
+          android:showAsAction="never"
+          android:icon="@drawable/nav_back"/>
+
+
+    <item android:id="@+id/nav_home"
+          android:title="@string/navigation_home"
+          android:orderInCategory="100"
+          android:showAsAction = "never"
+          android:icon="@drawable/nav_home"  />
+
+    <item android:id="@+id/nav_refresh"
+          android:title="@string/action_refresh"
+          android:orderInCategory="100"
+          android:showAsAction = "never"
+          android:icon="@drawable/menu_refresh"  />
+
+    <item android:id="@+id/nav_forward"
+          android:title="@string/navigation_forward"
+          android:orderInCategory="100"
+          android:showAsAction = "never"
+          android:icon="@drawable/nav_forward"/>
+
+
+
+</menu>

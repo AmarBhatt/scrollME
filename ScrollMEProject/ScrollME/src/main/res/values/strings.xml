@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <!-- ENGLISH -->
+<resources>
+    <string name="app_name">scrollME™</string>
+
+    <!-- Main Activity -->
+    <string name="noConnectionPopUp_title">No Network Found</string>
+    <string name="noConnectionPopUp_message">scrollME™ requires a valid network connection.\n
+        scrollME™ will now exit, please check your network settings.</string>
+    <string name="webpageFailPopUp_title">Network Issue Detected</string>
+    <string name="webpageFailPopUp_message">scrollME™ requires a valid network connection.\n
+        This works best on Wifi, 3g, or 4g, please check your network settings.</string>
+    <string name="newWebPagePopUp_title">Alert</string>
+    <string name="newWebPagePopUp_message1">The link you wish to navigate to is not directly
+        supported by scrollME™ \n Open </string>
+    <string name="newWebPagePopUp_message2"> page in new browser? \n
+        To turn off this alert go to Settings.</string>
+    <string name="newWebPagePopUp_toast">Exiting scrollME™</string>
+    <string name="newWebPagePopUp_goback">Go Back</string>
+    <string name="helpPopUp_title">Get Started with scrollME™</string>
+    <string name="helpPopUp_message">1. To access the main menu options press the scrollME™ icon.
+        \n 2. To access navigation menu press the social media logo you wish to navigate
+    within. \n 3. Log on to Facebook and Twitter before logging into accounts that are
+    linked to Facebook and Twitter (e.g. Pinterest). \n 4. When prompted click,
+        \"continue to mobile site\". \n \n To turn off this Help dialog, go to Settings.</string>
+
+    <!-- ABOUT MENU -->
+    <string name="version">Version 1.0</string>
+    <string name="about_screen">About scrollME™</string>
+    <string name="title_activity_about_screen">About scrollME™</string>
+    <string name="copyright_message">Facebook, Twitter, LinkedIn, Instagram, Youtube, Google+,
+        Tumblr, Reddit, Pinterest, and ESPN icons, sites, and affiliates are not owned by scrollME™.
+        \n Each organization follows and maintains their own individual policies and practices.
+        \n scrollME™ is not responsible for any risks associated with using social media
+        networks. Please use caution.\n scrollME™ Copyright© Amar Bhatt 2013</string>
+    <!-- LOADING SCREEN -->
+    <string name="load_state">Loading...</string>
+    <string name="load_message">\n \n Please wait while scrollME™ loads your settings. \n
+        scrollME™ works best with a strong Wifi, 3g, or 4g connection. \n </string>
+    <string name="title_activity_loading_screen">Loading Screen</string>
+    <!-- SETTINGS -->
+    <string name="title_activity_setting">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_about">About</string>
+    <string name="navigation_back">Back</string>
+    <string name="navigation_forward">Forward</string>
+    <string name="navigation_home">Home</string>
+        <!-- Defaults and Summaries of Settings -->
+    <string name="default_views_title">Default Views</string>
+    <string name="primary_view_default">Primary View</string>
+    <string name="secondary_view_default">Secondary View</string>
+    <string name="fullscreen_title">Full Screen Toggle</string>
+    <string name="fullscreen_view">Full Screen (One View)</string>
+    <string name="fullscreen_summary">One view instead of two.</string>
+    <string name="fullscreen_summaryOne">One View</string>
+    <string name="fullscreen_summaryTwo">Two Views</string>
+    <string name="fullscreen_enabled">Full Screen Enabled</string>
+    <string name="fullscreen_disabled">Full Screen Disabled</string>
+    <string name="primary_default">Facebook</string>
+    <string name="secondary_default">Twitter</string>
+    <string name="customization_title">Customization</string>
+    <string name="background_color">Background Color</string>
+    <string name="color_default">Black</string>
+    <string name="alert_title">Alert Options</string>
+    <string name="new_page_dialog">New Page Alert</string>
+    <string name="new_page_summary">Warning dialog upon leaving application.</string>
+    <string name="new_page_hidden">Alert Hidden</string>
+    <string name="new_page_shown">Alert Shown</string>
+    <string name="url_view">View Current Url</string>
+    <string name="url_view_summary">Display loading url</string>
+    <string name="url_view_enabled">Url Enabled</string>
+    <string name="url_view_disabled">Url Disabled</string>
+    <string name="onBackPressed_settings">To Save and Exit menu, press scrollME™ icon at
+        the top of Settings</string>
+    <string name="help_alert">Help Dialog</string>
+    <string name="help_alert_summary">Enable or disable help alert on start up</string>
+    <string name="help_alert_enable">Help Enabled</string>
+    <string name="help_alert_disable">Help Disabled</string>
+        <!-- Arrays and Values of Settings -->
+    <string-array name="social_media">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>LinkedIn</item>
+        <item>Instagram</item>
+        <item>Youtube</item>
+        <item>Google+</item>
+        <item>Tumblr</item>
+        <item>Reddit</item>
+        <item>Pinterest</item>
+        <item>ESPN</item>
+    </string-array>
+    <string-array name="social_media_values">
+        <item>http://touch.facebook.com</item>
+        <item>http://mobile.twitter.com</item>
+        <item>http://touch.www.linkedin.com</item>
+        <item>https://instagram.com/accounts/login/#</item>
+        <item>http://m.youtube.com</item>
+        <item>https://plus.google.com</item>
+        <item>http://www.tumblr.com</item>
+        <item>http://www.reddit.com</item>
+        <item>http://m.pinterest.com</item>
+        <item>http://m.espn.go.com/wireless/</item>
+    </string-array>
+    <string-array name="color_toggle">
+        <item>@string/black</item>
+        <item>@string/blue</item>
+        <item>@string/red</item>
+        <item>@string/green</item>
+        <item>@string/yellow</item>
+        <item>@string/purple</item>
+        <item>@string/white</item>
+        <item>@string/silver</item>
+        <item>@string/gray</item>
+        <item>@string/cyan</item>
+    </string-array>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="purple">Purple</string>
+    <string name="white">White</string>
+    <string name="silver">Silver</string>
+    <string name="gray">Gray</string>
+    <string name="cyan">Cyan</string>
+
+    <integer-array name="social_media_icons">
+        <item>0x7f020001</item>
+        <item>0x7f020011</item>
+        <item>0x7f020007</item>
+        <item>0x7f020006</item>
+        <item>0x7f020012</item>
+        <item>0x7f020003</item>
+        <item>0x7f020010</item>
+        <item>0x7f02000f</item>
+        <item>0x7f02000e</item>
+        <item>0x7f020000</item>
+    </integer-array>
+    </resources>

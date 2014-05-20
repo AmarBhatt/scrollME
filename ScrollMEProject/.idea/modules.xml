@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScrollME/ScrollME.iml" filepath="$PROJECT_DIR$/ScrollME/ScrollME.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScrollMEProject.iml" filepath="$PROJECT_DIR$/ScrollMEProject.iml" />
+    </modules>
+  </component>
+</project>
+

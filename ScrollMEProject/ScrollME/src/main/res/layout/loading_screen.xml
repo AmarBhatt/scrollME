@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".AboutScreen"
+                android:background="#118cb8">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/ic_load"
+                android:scaleType="fitCenter"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_weight="3"
+                android:padding="50dp"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_state"
+                android:id="@+id/textView2"
+                android:layout_above="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center"  />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/load_message"
+                android:id="@+id/textView"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
